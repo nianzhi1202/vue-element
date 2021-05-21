@@ -1,0 +1,3299 @@
+{
+  "data": [
+    {
+      "group_name": "tb_user_type",
+      "subarea": [
+        {
+          "group_name": "tb_user_type",
+          "label": "PC账号",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_user_type",
+          "label": "施工账号",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_robbery_business_anji_biz_type",
+      "subarea": [
+        {
+          "group_name": "tb_robbery_business_anji_biz_type",
+          "label": "回租",
+          "value": "01"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_robbery_business_anji_policy_status",
+      "subarea": [
+        {
+          "group_name": "tb_robbery_business_anji_policy_status",
+          "label": "投保",
+          "value": "01"
+        },
+        {
+          "group_name": "tb_robbery_business_anji_policy_status",
+          "label": "退保",
+          "value": "02"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_robbery_business_anji_policy_status_admin",
+      "subarea": [
+        {
+          "group_name": "tb_robbery_business_anji_policy_status_admin",
+          "label": "投保",
+          "value": "01"
+        },
+        {
+          "group_name": "tb_robbery_business_anji_policy_status_admin",
+          "label": "退保",
+          "value": "02"
+        },
+        {
+          "group_name": "tb_robbery_business_anji_policy_status_admin",
+          "label": "报送",
+          "value": "03"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_customer_type",
+      "subarea": [
+        {
+          "group_name": "tb_customer_type",
+          "label": "银行",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_customer_type",
+          "label": "融资租赁",
+          "value": "2"
+        },
+        {
+          "group_name": "tb_customer_type",
+          "label": "安装服务供应商",
+          "value": "8"
+        },
+        {
+          "group_name": "tb_customer_type",
+          "label": "主机厂金融",
+          "value": "3"
+        },
+        {
+          "group_name": "tb_customer_type",
+          "label": "车抵贷",
+          "value": "4"
+        },
+        {
+          "group_name": "tb_customer_type",
+          "label": "二手车金融",
+          "value": "5"
+        },
+        {
+          "group_name": "tb_customer_type",
+          "label": "代理商/SP",
+          "value": "6"
+        },
+        {
+          "group_name": "tb_customer_type",
+          "label": "自营",
+          "value": "7"
+        },
+        {
+          "group_name": "tb_customer_type",
+          "label": "其他",
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_product_status",
+      "subarea": [
+        {
+          "group_name": "tb_product_status",
+          "label": "上架",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_product_status",
+          "label": "下架",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_product_type",
+      "subarea": [
+        {
+          "group_name": "tb_product_type",
+          "label": "有线设备",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_product_type",
+          "label": "无线设备",
+          "value": "2"
+        },
+        {
+          "group_name": "tb_product_type",
+          "label": "耗材",
+          "value": "8"
+        },
+        {
+          "group_name": "tb_product_type",
+          "label": "物联网卡",
+          "value": "9"
+        },
+        {
+          "group_name": "tb_product_type",
+          "label": "维修",
+          "value": "10"
+        },
+        {
+          "group_name": "tb_product_type",
+          "label": "车辆",
+          "value": "11"
+        },
+        {
+          "group_name": "tb_product_type",
+          "label": "拆除",
+          "value": "12"
+        },
+        {
+          "group_name": "tb_product_type",
+          "label": "维修加装",
+          "value": "13"
+        },
+        {
+          "group_name": "tb_product_type",
+          "label": "维修更换",
+          "value": "14"
+        },
+        {
+          "group_name": "tb_product_type",
+          "label": "改装",
+          "value": "20"
+        },
+        {
+          "group_name": "tb_product_type",
+          "label": "代办抵押",
+          "value": "21"
+        },
+        {
+          "group_name": "tb_product_type",
+          "label": "解除抵押",
+          "value": "22"
+        },
+        {
+          "group_name": "tb_product_type",
+          "label": "家访",
+          "value": "50"
+        },
+        {
+          "group_name": "tb_product_type",
+          "label": "收钥匙",
+          "value": "30"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_driver_use_status",
+      "subarea": [
+        {
+          "group_name": "tb_driver_use_status",
+          "label": "启用",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_driver_use_status",
+          "label": "禁用",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_car_owner_gender",
+      "subarea": [
+        {
+          "group_name": "tb_car_owner_gender",
+          "label": "男",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_car_owner_gender",
+          "label": "女",
+          "value": "2"
+        },
+        {
+          "group_name": "tb_car_owner_gender",
+          "label": "未知",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_order_type",
+      "subarea": [
+        {
+          "group_name": "tb_order_type",
+          "label": "安装",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_order_type",
+          "label": "拆改",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_order_status",
+      "subarea": [
+        {
+          "group_name": "tb_order_status",
+          "label": "已提交，待确认",
+          "value": "20"
+        },
+        {
+          "group_name": "tb_order_status",
+          "label": "已确认，待派单",
+          "value": "30"
+        },
+        {
+          "group_name": "tb_order_status",
+          "label": "改约",
+          "value": "32"
+        },
+        {
+          "group_name": "tb_order_status",
+          "label": "已派单，待签到",
+          "value": "40"
+        },
+        {
+          "group_name": "tb_order_status",
+          "label": "已签到，待施工",
+          "value": "50"
+        },
+        {
+          "group_name": "tb_order_status",
+          "label": "施工中，待完成",
+          "value": "60"
+        },
+        {
+          "group_name": "tb_order_status",
+          "label": "已完成，待审核",
+          "value": "70"
+        },
+        {
+          "group_name": "tb_order_status",
+          "label": "审核通过，已完成",
+          "value": "80"
+        },
+        {
+          "group_name": "tb_order_status",
+          "label": "取消工单",
+          "value": "81"
+        },
+        {
+          "group_name": "tb_order_status",
+          "label": "空单，关闭工单",
+          "value": "82"
+        },
+        {
+          "group_name": "tb_order_status",
+          "label": "审核不通过",
+          "value": "75"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_car_kind_table_name",
+      "subarea": [
+        {
+          "group_name": "tb_car_kind_table_name",
+          "label": "金融",
+          "value": "CarLoan"
+        },
+        {
+          "group_name": "tb_car_kind_table_name",
+          "label": "自行施工",
+          "value": "LiteOrderCar"
+        },
+        {
+          "group_name": "tb_car_kind_table_name",
+          "label": "逾期业务",
+          "value": "CarViolate"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_message_type",
+      "subarea": [
+        {
+          "group_name": "tb_message_type",
+          "label": "系统消息",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_message_type",
+          "label": "公告",
+          "value": "2"
+        },
+        {
+          "group_name": "tb_message_type",
+          "label": "工单",
+          "value": "3"
+        },
+        {
+          "group_name": "tb_message_type",
+          "label": "设备",
+          "value": "4"
+        },
+        {
+          "group_name": "tb_message_type",
+          "label": "报警",
+          "value": "5"
+        },
+        {
+          "group_name": "tb_message_type",
+          "label": "客服工单",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_warehouse_stock_type",
+      "subarea": [
+        {
+          "group_name": "tb_warehouse_stock_type",
+          "label": "设备",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_warehouse_stock_type",
+          "label": "年期",
+          "value": "2"
+        },
+        {
+          "group_name": "tb_warehouse_stock_type",
+          "label": "耗材",
+          "value": "3"
+        },
+        {
+          "group_name": "tb_warehouse_stock_type",
+          "label": "其它",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_warehouse_stock_item",
+      "subarea": [
+        {
+          "group_name": "tb_warehouse_stock_item",
+          "label": "B5有线设备",
+          "value": "B5有线设备"
+        },
+        {
+          "group_name": "tb_warehouse_stock_item",
+          "label": "B5无线设备",
+          "value": "B5无线设备"
+        },
+        {
+          "group_name": "tb_warehouse_stock_item",
+          "label": "磁铁A1",
+          "value": "磁铁A1"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_map_location_type",
+      "subarea": [
+        {
+          "group_name": "tb_map_location_type",
+          "label": "电子围栏",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_map_location_type",
+          "label": "风险点",
+          "value": "2"
+        },
+        {
+          "group_name": "tb_map_location_type",
+          "label": "行政区域",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_install_standard_type",
+      "subarea": [
+        {
+          "group_name": "tb_install_standard_type",
+          "label": "车辆",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_install_standard_type",
+          "label": "设备",
+          "value": "2"
+        },
+        {
+          "group_name": "tb_install_standard_type",
+          "label": "工单",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_install_standard_required",
+      "subarea": [
+        {
+          "group_name": "tb_install_standard_required",
+          "label": "必填",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_install_standard_required",
+          "label": "非必填",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_install_standard_field",
+      "subarea": [
+        {
+          "group_name": "tb_install_standard_field",
+          "label": "文本",
+          "value": "text"
+        },
+        {
+          "group_name": "tb_install_standard_field",
+          "label": "图片",
+          "value": "image"
+        },
+        {
+          "group_name": "tb_install_standard_field",
+          "label": "输入框",
+          "value": "input"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_warning_message_v2_type",
+      "subarea": [
+        {
+          "group_name": "tb_warning_message_v2_type",
+          "label": "未知",
+          "value": "0"
+        },
+        {
+          "group_name": "tb_warning_message_v2_type",
+          "label": "光感",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_warning_message_v2_type",
+          "label": "断电",
+          "value": "2"
+        },
+        {
+          "group_name": "tb_warning_message_v2_type",
+          "label": "拆除",
+          "value": "3"
+        },
+        {
+          "group_name": "tb_warning_message_v2_type",
+          "label": "翻转",
+          "value": "4"
+        },
+        {
+          "group_name": "tb_warning_message_v2_type",
+          "label": "震动",
+          "value": "5"
+        },
+        {
+          "group_name": "tb_warning_message_v2_type",
+          "label": "碰撞",
+          "value": "6"
+        },
+        {
+          "group_name": "tb_warning_message_v2_type",
+          "label": "设备分离",
+          "value": "7"
+        },
+        {
+          "group_name": "tb_warning_message_v2_type",
+          "label": "离线超时",
+          "value": "8"
+        },
+        {
+          "group_name": "tb_warning_message_v2_type",
+          "label": "停车超时",
+          "value": "9"
+        },
+        {
+          "group_name": "tb_warning_message_v2_type",
+          "label": "异常聚集",
+          "value": "10"
+        },
+        {
+          "group_name": "tb_warning_message_v2_type",
+          "label": "低电量",
+          "value": "11"
+        },
+        {
+          "group_name": "tb_warning_message_v2_type",
+          "label": "里程异常",
+          "value": "12"
+        },
+        {
+          "group_name": "tb_warning_message_v2_type",
+          "label": "超速",
+          "value": "13"
+        },
+        {
+          "group_name": "tb_warning_message_v2_type",
+          "label": "风险点",
+          "value": "14"
+        },
+        {
+          "group_name": "tb_warning_message_v2_type",
+          "label": "电子围栏",
+          "value": "15"
+        },
+        {
+          "group_name": "tb_warning_message_v2_type",
+          "label": "蓝牙报警",
+          "value": "16"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_rule_type",
+      "subarea": [
+        {
+          "group_name": "tb_rule_type",
+          "label": "电子围栏",
+          "value": "fence"
+        },
+        {
+          "group_name": "tb_rule_type",
+          "label": "停车超时",
+          "value": "park"
+        },
+        {
+          "group_name": "tb_rule_type",
+          "label": "行政区域",
+          "value": "area"
+        },
+        {
+          "group_name": "tb_rule_type",
+          "label": "异常聚集",
+          "value": "gather"
+        },
+        {
+          "group_name": "tb_rule_type",
+          "label": "离线超时",
+          "value": "offline"
+        },
+        {
+          "group_name": "tb_rule_type",
+          "label": "超速",
+          "value": "overspeed"
+        },
+        {
+          "group_name": "tb_rule_type",
+          "label": "风险点",
+          "value": "riskpoint"
+        },
+        {
+          "group_name": "tb_rule_type",
+          "label": "常驻地",
+          "value": "usualplace"
+        },
+        {
+          "group_name": "tb_rule_type",
+          "label": "设备分离",
+          "value": "separationequip"
+        },
+        {
+          "group_name": "tb_rule_type",
+          "label": "拆机报警",
+          "value": "dismantling"
+        },
+        {
+          "group_name": "tb_rule_type",
+          "label": "SOS报警",
+          "value": "sos"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_rule_status",
+      "subarea": [
+        {
+          "group_name": "tb_rule_status",
+          "label": "正常",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_rule_status",
+          "label": "停用",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_driver_model",
+      "subarea": [
+        {
+          "group_name": "tb_driver_model",
+          "label": "ET200",
+          "value": "ET200"
+        },
+        {
+          "group_name": "tb_driver_model",
+          "label": "M5",
+          "value": "M5"
+        },
+        {
+          "group_name": "tb_driver_model",
+          "label": "Q3",
+          "value": "Q3"
+        },
+        {
+          "group_name": "tb_driver_model",
+          "label": "QX",
+          "value": "QX"
+        },
+        {
+          "group_name": "tb_driver_model",
+          "label": "M4",
+          "value": "M4"
+        },
+        {
+          "group_name": "tb_driver_model",
+          "label": "TY01",
+          "value": "TY01"
+        },
+        {
+          "group_name": "tb_driver_model",
+          "label": "lifan",
+          "value": "lifan"
+        },
+        {
+          "group_name": "tb_driver_model",
+          "label": "M5S",
+          "value": "M5S"
+        },
+        {
+          "group_name": "tb_driver_model",
+          "label": "Q1",
+          "value": "Q1"
+        },
+        {
+          "group_name": "tb_driver_model",
+          "label": "Q3S",
+          "value": "Q3S"
+        },
+        {
+          "group_name": "tb_driver_model",
+          "label": "TY905",
+          "value": "TY905"
+        },
+        {
+          "group_name": "tb_driver_model",
+          "label": "TY908",
+          "value": "TY908"
+        },
+        {
+          "group_name": "tb_driver_model",
+          "label": "TY06",
+          "value": "TY06"
+        },
+        {
+          "group_name": "tb_driver_model",
+          "label": "TY900",
+          "value": "TY900"
+        },
+        {
+          "group_name": "tb_driver_model",
+          "label": "TY-0A",
+          "value": "TY-0A"
+        },
+        {
+          "group_name": "tb_driver_model",
+          "label": "GT06",
+          "value": "GT06"
+        },
+        {
+          "group_name": "tb_driver_model",
+          "label": "TY910",
+          "value": "TY910"
+        },
+        {
+          "group_name": "tb_driver_model",
+          "label": "BD",
+          "value": "BD"
+        },
+        {
+          "group_name": "tb_driver_model",
+          "label": "GT02",
+          "value": "GT02"
+        },
+        {
+          "group_name": "tb_driver_model",
+          "label": "GT220",
+          "value": "GT220"
+        },
+        {
+          "group_name": "tb_driver_model",
+          "label": "GT710",
+          "value": "GT710"
+        },
+        {
+          "group_name": "tb_driver_model",
+          "label": "GT06N",
+          "value": "GT06N"
+        },
+        {
+          "group_name": "tb_driver_model",
+          "label": "通X",
+          "value": "通X"
+        },
+        {
+          "group_name": "tb_driver_model",
+          "label": "通A",
+          "value": "通A"
+        },
+        {
+          "group_name": "tb_driver_model",
+          "label": "老温控",
+          "value": "老温控"
+        },
+        {
+          "group_name": "tb_driver_model",
+          "label": "老油控",
+          "value": "老油控"
+        },
+        {
+          "group_name": "tb_driver_model",
+          "label": "温控",
+          "value": "温控"
+        },
+        {
+          "group_name": "tb_driver_model",
+          "label": "油控",
+          "value": "油控"
+        },
+        {
+          "group_name": "tb_driver_model",
+          "label": "Q5",
+          "value": "Q5"
+        },
+        {
+          "group_name": "tb_driver_model",
+          "label": "M1",
+          "value": "M1"
+        },
+        {
+          "group_name": "tb_driver_model",
+          "label": "M2",
+          "value": "M2"
+        },
+        {
+          "group_name": "tb_driver_model",
+          "label": "M3",
+          "value": "M3"
+        },
+        {
+          "group_name": "tb_driver_model",
+          "label": "TBOX-1",
+          "value": "TBOX-1"
+        },
+        {
+          "group_name": "tb_driver_model",
+          "label": "TBOX-2",
+          "value": "TBOX-2"
+        },
+        {
+          "group_name": "tb_driver_model",
+          "label": "TYB808",
+          "value": "TYB808"
+        },
+        {
+          "group_name": "tb_driver_model",
+          "label": "M8",
+          "value": "M8"
+        },
+        {
+          "group_name": "tb_driver_model",
+          "label": "M6",
+          "value": "M6"
+        },
+        {
+          "group_name": "tb_driver_model",
+          "label": "W2",
+          "value": "W2"
+        },
+        {
+          "group_name": "tb_driver_model",
+          "label": "M7",
+          "value": "M7"
+        },
+        {
+          "group_name": "tb_driver_model",
+          "label": "S2",
+          "value": "S2"
+        },
+        {
+          "group_name": "tb_driver_model",
+          "label": "S3",
+          "value": "S3"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_driver_install_status",
+      "subarea": [
+        {
+          "group_name": "tb_driver_install_status",
+          "label": "待施工",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_driver_install_status",
+          "label": "已施工",
+          "value": "2"
+        },
+        {
+          "group_name": "tb_driver_install_status",
+          "label": "无需施工",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_driver_status",
+      "subarea": [
+        {
+          "group_name": "tb_driver_status",
+          "label": "正常",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_driver_status",
+          "label": "报废",
+          "value": "2"
+        },
+        {
+          "group_name": "tb_driver_status",
+          "label": "待拆除",
+          "value": "3"
+        },
+        {
+          "group_name": "tb_driver_status",
+          "label": "维修中",
+          "value": "4"
+        },
+        {
+          "group_name": "tb_driver_status",
+          "label": "已结清",
+          "value": "5"
+        },
+        {
+          "group_name": "tb_driver_status",
+          "label": "结清未拆",
+          "value": "6"
+        },
+        {
+          "group_name": "tb_driver_status",
+          "label": "丢失",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_driver_service_status",
+      "subarea": [
+        {
+          "group_name": "tb_driver_service_status",
+          "label": "正常使用",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_driver_service_status",
+          "label": "未开通",
+          "value": "2"
+        },
+        {
+          "group_name": "tb_driver_service_status",
+          "label": "已到期",
+          "value": "3"
+        },
+        {
+          "group_name": "tb_driver_service_status",
+          "label": "即将到期",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_car_install_status",
+      "subarea": [
+        {
+          "group_name": "tb_car_install_status",
+          "label": "待安装",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_car_install_status",
+          "label": "已安装",
+          "value": "2"
+        },
+        {
+          "group_name": "tb_car_install_status",
+          "label": "未安装",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_customer_settlement_way",
+      "subarea": [
+        {
+          "group_name": "tb_customer_settlement_way",
+          "label": "安装结算",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_customer_settlement_way",
+          "label": "发货结算",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_driver_running_status",
+      "subarea": [
+        {
+          "group_name": "tb_driver_running_status",
+          "label": "在线",
+          "value": "1000"
+        },
+        {
+          "group_name": "tb_driver_running_status",
+          "label": "离线",
+          "value": "2000"
+        },
+        {
+          "group_name": "tb_driver_running_status",
+          "label": "行驶",
+          "value": "1000"
+        },
+        {
+          "group_name": "tb_driver_running_status",
+          "label": "静止",
+          "value": "1002"
+        },
+        {
+          "group_name": "tb_driver_running_status",
+          "label": "休眠",
+          "value": "1001"
+        },
+        {
+          "group_name": "tb_driver_running_status",
+          "label": "未知",
+          "value": "3000"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_driver_running_status_wired",
+      "subarea": [
+        {
+          "group_name": "tb_driver_running_status",
+          "label": "离线",
+          "value": "2000"
+        },
+        {
+          "group_name": "tb_driver_running_status",
+          "label": "行驶",
+          "value": "1000"
+        },
+        {
+          "group_name": "tb_driver_running_status",
+          "label": "静止",
+          "value": "1002"
+        },
+        {
+          "group_name": "tb_driver_running_status",
+          "label": "未知",
+          "value": "3000"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_driver_running_status_wireless",
+      "subarea": [
+        {
+          "group_name": "tb_driver_running_status",
+          "label": "在线",
+          "value": "1000"
+        },
+        {
+          "group_name": "tb_driver_running_status",
+          "label": "离线",
+          "value": "2000"
+        },
+        {
+          "group_name": "tb_driver_running_status",
+          "label": "休眠",
+          "value": "1001"
+        },
+        {
+          "group_name": "tb_driver_running_status",
+          "label": "未知",
+          "value": "3000"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_driver_type",
+      "subarea": [
+        {
+          "group_name": "tb_driver_type",
+          "label": "有线",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_driver_type",
+          "label": "无线",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_user_status",
+      "subarea": [
+        {
+          "group_name": "tb_user_status",
+          "label": "启用",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_user_status",
+          "label": "禁用",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_driver_position_type",
+      "subarea": [
+        {
+          "group_name": "tb_driver_position_type",
+          "label": "wifi定位",
+          "value": "02"
+        },
+        {
+          "group_name": "tb_driver_position_type",
+          "label": "GPS定位",
+          "value": "00"
+        },
+        {
+          "group_name": "tb_driver_position_type",
+          "label": "基站定位",
+          "value": "01"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_driver_service_type",
+      "subarea": [
+        {
+          "group_name": "tb_driver_service_type",
+          "label": "一年期",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_driver_service_type",
+          "label": "二年期",
+          "value": "2"
+        },
+        {
+          "group_name": "tb_driver_service_type",
+          "label": "三年期",
+          "value": "3"
+        },
+        {
+          "group_name": "tb_driver_service_type",
+          "label": "四年期",
+          "value": "4"
+        },
+        {
+          "group_name": "tb_driver_service_type",
+          "label": "五年期",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_order_progress_status",
+      "subarea": [
+        {
+          "group_name": "tb_order_progress_status",
+          "label": "等待接单",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_order_progress_status",
+          "label": "已接单",
+          "value": "2"
+        },
+        {
+          "group_name": "tb_order_progress_status",
+          "label": "联系现场",
+          "value": "3"
+        },
+        {
+          "group_name": "tb_order_progress_status",
+          "label": "已签到",
+          "value": "4"
+        },
+        {
+          "group_name": "tb_order_progress_status",
+          "label": "施工中",
+          "value": "5"
+        },
+        {
+          "group_name": "tb_order_progress_status",
+          "label": "已施工",
+          "value": "6"
+        },
+        {
+          "group_name": "tb_order_progress_status",
+          "label": "工单完成",
+          "value": "7"
+        },
+        {
+          "group_name": "tb_order_progress_status",
+          "label": "已取消",
+          "value": "8"
+        },
+        {
+          "group_name": "tb_order_progress_status",
+          "label": "空单",
+          "value": "9"
+        },
+        {
+          "group_name": "tb_order_progress_status",
+          "label": "工单退回",
+          "value": "10"
+        },
+        {
+          "group_name": "tb_order_progress_status",
+          "label": "工单改约",
+          "value": "11"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_customer_coop_status",
+      "subarea": [
+        {
+          "group_name": "tb_customer_coop_status",
+          "label": "启用",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_customer_coop_status",
+          "label": "禁用",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_user_role_8",
+      "subarea": [
+        {
+          "group_name": "tb_user_role_8",
+          "label": "客户管理员",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_user_role_8",
+          "label": "门店管理员",
+          "value": "2"
+        },
+        {
+          "group_name": "tb_user_role_8",
+          "label": "安装工程师",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_user_role",
+      "subarea": [
+        {
+          "group_name": "tb_user_role",
+          "label": "普通客户-客户管理员",
+          "value": "4"
+        },
+        {
+          "group_name": "tb_user_role",
+          "label": "普通客户-门店管理员",
+          "value": "5"
+        },
+        {
+          "group_name": "tb_user_role",
+          "label": "普通客户-普通员工",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_user_profile_is_work",
+      "subarea": [
+        {
+          "group_name": "tb_user_profile_is_work",
+          "label": "休息",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_user_profile_is_work",
+          "label": "忙碌",
+          "value": "2"
+        },
+        {
+          "group_name": "tb_user_profile_is_work",
+          "label": "开工",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_car_owner_certificate_type",
+      "subarea": [
+        {
+          "group_name": "tb_car_owner_certificate_type",
+          "label": "身份证",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_car_owner_certificate_type",
+          "label": "护照",
+          "value": "2"
+        },
+        {
+          "group_name": "tb_car_owner_certificate_type",
+          "label": "组织机构代码",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_car_owner_certificate_type_1",
+      "subarea": [
+        {
+          "group_name": "tb_car_owner_certificate_type_1",
+          "label": "身份证",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_car_owner_certificate_type_1",
+          "label": "护照",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_car_owner_certificate_type_2",
+      "subarea": [
+        {
+          "group_name": "tb_car_owner_certificate_type",
+          "label": "组织机构代码",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_car_owner_type",
+      "subarea": [
+        {
+          "group_name": "tb_car_owner_type",
+          "label": "个人",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_car_owner_type",
+          "label": "企业",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_user_profile_type",
+      "subarea": [
+        {
+          "group_name": "tb_user_profile_type",
+          "label": "外包安装工",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_user_profile_type",
+          "label": "自有安装工",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_driver_simcard_status",
+      "subarea": [
+        {
+          "group_name": "tb_driver_simcard_status",
+          "label": "正使用",
+          "value": "00"
+        },
+        {
+          "group_name": "tb_driver_simcard_status",
+          "label": "测试期",
+          "value": "10"
+        },
+        {
+          "group_name": "tb_driver_simcard_status",
+          "label": "停机",
+          "value": "02"
+        },
+        {
+          "group_name": "tb_driver_simcard_status",
+          "label": "预销号",
+          "value": "03"
+        },
+        {
+          "group_name": "tb_driver_simcard_status",
+          "label": "销号",
+          "value": "04"
+        },
+        {
+          "group_name": "tb_driver_simcard_status",
+          "label": "沉默期",
+          "value": "11"
+        },
+        {
+          "group_name": "tb_driver_simcard_status",
+          "label": "停机保号",
+          "value": "12"
+        },
+        {
+          "group_name": "tb_driver_simcard_status",
+          "label": "未知",
+          "value": "99"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_driver_simcard_boot_status",
+      "subarea": [
+        {
+          "group_name": "tb_driver_simcard_boot_status",
+          "label": "开机",
+          "value": "0"
+        },
+        {
+          "group_name": "tb_driver_simcard_boot_status",
+          "label": "关机",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_driver_simcard_boot_status",
+          "label": "获取超时",
+          "value": "2"
+        },
+        {
+          "group_name": "tb_driver_simcard_boot_status",
+          "label": "获取失败",
+          "value": "3"
+        },
+        {
+          "group_name": "tb_driver_simcard_boot_status",
+          "label": "未知",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_driver_simcard_work_status",
+      "subarea": [
+        {
+          "group_name": "tb_driver_simcard_work_status",
+          "label": "工作中",
+          "value": "0"
+        },
+        {
+          "group_name": "tb_driver_simcard_work_status",
+          "label": "空闲",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_driver_simcard_work_status",
+          "label": "获取超时",
+          "value": "2"
+        },
+        {
+          "group_name": "tb_driver_simcard_work_status",
+          "label": "获取失败",
+          "value": "3"
+        },
+        {
+          "group_name": "tb_driver_simcard_work_status",
+          "label": "未知",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_map_location_tag",
+      "subarea": [
+        {
+          "group_name": "tb_map_location_tag",
+          "label": "二押点",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_map_location_tag",
+          "label": "车管所",
+          "value": "2"
+        },
+        {
+          "group_name": "tb_map_location_tag",
+          "label": "二手市场",
+          "value": "3"
+        },
+        {
+          "group_name": "tb_map_location_tag",
+          "label": "高消费",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_car_vehicle_level",
+      "subarea": [
+        {
+          "group_name": "tb_car_vehicle_level",
+          "label": "微型车",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_car_vehicle_level",
+          "label": "小型车",
+          "value": "2"
+        },
+        {
+          "group_name": "tb_car_vehicle_level",
+          "label": "紧凑型车",
+          "value": "3"
+        },
+        {
+          "group_name": "tb_car_vehicle_level",
+          "label": "中型车",
+          "value": "4"
+        },
+        {
+          "group_name": "tb_car_vehicle_level",
+          "label": "中大型车",
+          "value": "5"
+        },
+        {
+          "group_name": "tb_car_vehicle_level",
+          "label": "大型车",
+          "value": "6"
+        },
+        {
+          "group_name": "tb_car_vehicle_level",
+          "label": "豪华型车",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_rule_tags",
+      "subarea": [
+        {
+          "group_name": "tb_rule_tags",
+          "label": "停车",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_rule_tags",
+          "label": "风险点",
+          "value": "2"
+        },
+        {
+          "group_name": "tb_rule_tags",
+          "label": "行政区域",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_car_logic_type",
+      "subarea": [
+        {
+          "group_name": "tb_car_logic_type",
+          "label": "设备车辆",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_car_logic_type",
+          "label": "业务车辆",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_car_type",
+      "subarea": [
+        {
+          "group_name": "tb_car_type",
+          "label": "轿车",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_car_type",
+          "label": "SUV",
+          "value": "2"
+        },
+        {
+          "group_name": "tb_car_type",
+          "label": "MPV",
+          "value": "3"
+        },
+        {
+          "group_name": "tb_car_type",
+          "label": "跑车",
+          "value": "4"
+        },
+        {
+          "group_name": "tb_car_type",
+          "label": "皮卡",
+          "value": "5"
+        },
+        {
+          "group_name": "tb_car_type",
+          "label": "轻卡",
+          "value": "6"
+        },
+        {
+          "group_name": "tb_car_type",
+          "label": "重卡",
+          "value": "7"
+        },
+        {
+          "group_name": "tb_car_type",
+          "label": "微面",
+          "value": "8"
+        },
+        {
+          "group_name": "tb_car_type",
+          "label": "其他",
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_car_fuel_type",
+      "subarea": [
+        {
+          "group_name": "tb_car_fuel_type",
+          "label": "汽油",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_car_fuel_type",
+          "label": "汽油",
+          "value": "2"
+        },
+        {
+          "group_name": "tb_car_fuel_type",
+          "label": "柴油",
+          "value": "6"
+        },
+        {
+          "group_name": "tb_car_fuel_type",
+          "label": "油电混动",
+          "value": "3"
+        },
+        {
+          "group_name": "tb_car_fuel_type",
+          "label": "纯电动",
+          "value": "4"
+        },
+        {
+          "group_name": "tb_car_fuel_type",
+          "label": "插电式混动",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_warning_message_type",
+      "subarea": [
+        {
+          "group_name": "tb_warning_message_type",
+          "label": "离线超时报警",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_warning_message_type",
+          "label": "停车超时报警",
+          "value": "2"
+        },
+        {
+          "group_name": "tb_warning_message_type",
+          "label": "拆机报警",
+          "value": "3"
+        },
+        {
+          "group_name": "tb_warning_message_type",
+          "label": "超速报警",
+          "value": "5"
+        },
+        {
+          "group_name": "tb_warning_message_type",
+          "label": "异常聚集报警",
+          "value": "6"
+        },
+        {
+          "group_name": "tb_warning_message_type",
+          "label": "设备分离报警",
+          "value": "7"
+        },
+        {
+          "group_name": "tb_warning_message_type",
+          "label": "常驻地报警",
+          "value": "8"
+        },
+        {
+          "group_name": "tb_warning_message_type",
+          "label": "风险点停留报警",
+          "value": "9"
+        },
+        {
+          "group_name": "tb_warning_message_type",
+          "label": "电子围栏报警",
+          "value": "10"
+        },
+        {
+          "group_name": "tb_warning_message_type",
+          "label": "出行政区域报警",
+          "value": "4"
+        },
+        {
+          "group_name": "tb_warning_message_type",
+          "label": "光感报警",
+          "value": "11"
+        },
+        {
+          "group_name": "tb_warning_message_type",
+          "label": "断电报警",
+          "value": "12"
+        },
+        {
+          "group_name": "tb_warning_message_type",
+          "label": "翻转报警",
+          "value": "13"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_driver_order_issue_records",
+      "subarea": [
+        {
+          "group_name": "tb_driver_order_issue_records",
+          "label": "待下发",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_driver_order_issue_records",
+          "label": "已下发",
+          "value": "2"
+        },
+        {
+          "group_name": "tb_driver_order_issue_records",
+          "label": "已覆盖",
+          "value": "3"
+        },
+        {
+          "group_name": "tb_driver_order_issue_records",
+          "label": "已取消",
+          "value": "4"
+        },
+        {
+          "group_name": "tb_driver_order_issue_records",
+          "label": "下发失败",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_driver_setup_status",
+      "subarea": [
+        {
+          "group_name": "tb_driver_setup_status",
+          "label": "未安装",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_driver_setup_status",
+          "label": "已安装",
+          "value": "2"
+        },
+        {
+          "group_name": "tb_driver_setup_status",
+          "label": "未知",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_car_usualplace_type",
+      "subarea": [
+        {
+          "group_name": "tb_car_usualplace_type",
+          "label": "家",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_car_usualplace_type",
+          "label": "公司",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_driver_simcard_bind_status",
+      "subarea": [
+        {
+          "group_name": "tb_driver_simcard_bind_status",
+          "label": "未绑定",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_driver_simcard_bind_status",
+          "label": "已绑定",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_acc_status",
+      "subarea": [
+        {
+          "group_name": "tb_acc_status",
+          "label": "点火",
+          "value": "01"
+        },
+        {
+          "group_name": "tb_acc_status",
+          "label": "熄火",
+          "value": "00"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_driver_simcard_network_access_type",
+      "subarea": [
+        {
+          "group_name": "tb_driver_simcard_network_access_type",
+          "label": "2G",
+          "value": "2"
+        },
+        {
+          "group_name": "tb_driver_simcard_network_access_type",
+          "label": "3G",
+          "value": "3"
+        },
+        {
+          "group_name": "tb_driver_simcard_network_access_type",
+          "label": "4G",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_driver_simcard_is_support_sms",
+      "subarea": [
+        {
+          "group_name": "tb_driver_simcard_is_support_sms",
+          "label": "是",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_driver_simcard_is_support_sms",
+          "label": "否",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_driver_simcard_supplier",
+      "subarea": [
+        {
+          "group_name": "tb_driver_simcard_supplier",
+          "label": "嘉正",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_driver_simcard_supplier",
+          "label": "量讯",
+          "value": "2"
+        },
+        {
+          "group_name": "tb_driver_simcard_supplier",
+          "label": "豪迦",
+          "value": "3"
+        },
+        {
+          "group_name": "tb_driver_simcard_supplier",
+          "label": "未知",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_driver_service_use_status",
+      "subarea": [
+        {
+          "group_name": "tb_driver_service_use_status",
+          "label": "已绑定",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_driver_service_use_status",
+          "label": "未绑定",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_driver_simcard_package",
+      "subarea": [
+        {
+          "group_name": "tb_driver_simcard_package",
+          "label": "10M/月",
+          "value": "10"
+        },
+        {
+          "group_name": "tb_driver_simcard_package",
+          "label": "2M/月",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_car_kind_name",
+      "subarea": [
+        {
+          "group_name": "tb_car_kind_name",
+          "label": "金融业务",
+          "value": "CarLoan"
+        },
+        {
+          "group_name": "tb_car_kind_name",
+          "label": "安装业务",
+          "value": "CarInstall"
+        },
+        {
+          "group_name": "tb_car_kind_name",
+          "label": "盗抢险",
+          "value": "RobberyBusiness"
+        },
+        {
+          "group_name": "tb_car_kind_name",
+          "label": "失联无忧",
+          "value": "LostBusiness"
+        },
+        {
+          "group_name": "tb_car_kind_name",
+          "label": "逾期业务",
+          "value": "CarViolate"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_sms_task_detail_status",
+      "subarea": [
+        {
+          "group_name": "tb_sms_task_detail_status",
+          "label": "已创建",
+          "value": "0"
+        },
+        {
+          "group_name": "tb_sms_task_detail_status",
+          "label": "发送成功",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_sms_task_detail_status",
+          "label": "发送失败",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_wap_default_page",
+      "subarea": [
+        {
+          "group_name": "tb_wap_default_page",
+          "label": "选车",
+          "value": "car"
+        },
+        {
+          "group_name": "tb_wap_default_page",
+          "label": "监控",
+          "value": "map"
+        },
+        {
+          "group_name": "tb_wap_default_page",
+          "label": "报警",
+          "value": "warning"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_rule_is_show",
+      "subarea": [
+        {
+          "group_name": "tb_rule_is_show",
+          "label": "是",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_rule_is_show",
+          "label": "否",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_driver_simcard_is_near",
+      "subarea": [
+        {
+          "group_name": "tb_driver_simcard_is_near",
+          "label": "是",
+          "value": "0"
+        },
+        {
+          "group_name": "tb_driver_simcard_is_near",
+          "label": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_driver_simcard_is_over",
+      "subarea": [
+        {
+          "group_name": "tb_driver_simcard_is_over",
+          "label": "是",
+          "value": "0"
+        },
+        {
+          "group_name": "tb_driver_simcard_is_over",
+          "label": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_lost_business_status",
+      "subarea": [
+        {
+          "group_name": "tb_lost_business_status",
+          "label": "待审核",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_lost_business_status",
+          "label": "审核中",
+          "value": "2"
+        },
+        {
+          "group_name": "tb_lost_business_status",
+          "label": "投保成功",
+          "value": "3"
+        },
+        {
+          "group_name": "tb_lost_business_status",
+          "label": "投保失败",
+          "value": "4"
+        },
+        {
+          "group_name": "tb_lost_business_status",
+          "label": "已关闭",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_robbery_business_status",
+      "subarea": [
+        {
+          "group_name": "tb_robbery_business_status",
+          "label": "待审核",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_robbery_business_status",
+          "label": "审核中",
+          "value": "2"
+        },
+        {
+          "group_name": "tb_robbery_business_status",
+          "label": "已生效",
+          "value": "3"
+        },
+        {
+          "group_name": "tb_robbery_business_status",
+          "label": "已取消",
+          "value": "4"
+        },
+        {
+          "group_name": "tb_robbery_business_status",
+          "label": "已关闭",
+          "value": "5"
+        },
+        {
+          "group_name": "tb_robbery_business_status",
+          "label": "草稿",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_lost_business_is_new",
+      "subarea": [
+        {
+          "group_name": "tb_lost_business_is_new",
+          "label": "是",
+          "value": "0"
+        },
+        {
+          "group_name": "tb_lost_business_is_new",
+          "label": "否",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_robbery_business_certificate_type",
+      "subarea": [
+        {
+          "group_name": "tb_robbery_business_certificate_type",
+          "label": "居民身份证",
+          "value": "0"
+        },
+        {
+          "group_name": "tb_robbery_business_certificate_type",
+          "label": "组织机构代码",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_robbery_business_certificate_type",
+          "label": "其他",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_robbery_business_insure_type",
+      "subarea": [
+        {
+          "group_name": "tb_robbery_business_insure_type",
+          "label": "企业",
+          "value": "0"
+        },
+        {
+          "group_name": "tb_robbery_business_insure_type",
+          "label": "个人",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_lost_business_term_date",
+      "subarea": [
+        {
+          "group_name": "tb_lost_business_term_date",
+          "label": "1年",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_lost_business_term_date",
+          "label": "2年",
+          "value": "2"
+        },
+        {
+          "group_name": "tb_lost_business_term_date",
+          "label": "3年",
+          "value": "3"
+        },
+        {
+          "group_name": "tb_lost_business_term_date",
+          "label": "4年",
+          "value": "4"
+        },
+        {
+          "group_name": "tb_lost_business_term_date",
+          "label": "5年",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_robbery_term_date",
+      "subarea": [
+        {
+          "group_name": "tb_robbery_term_date",
+          "label": "3年",
+          "value": "3"
+        },
+        {
+          "group_name": "tb_robbery_term_date",
+          "label": "2年",
+          "value": "2"
+        },
+        {
+          "group_name": "tb_robbery_term_date",
+          "label": "1年",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_driver_work_mode",
+      "subarea": [
+        {
+          "group_name": "tb_driver_work_mode",
+          "label": "闹钟模式",
+          "value": "01"
+        },
+        {
+          "group_name": "tb_driver_work_mode",
+          "label": "定时模式",
+          "value": "03"
+        },
+        {
+          "group_name": "tb_driver_work_mode",
+          "label": "星期模式",
+          "value": "04"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_product_install_status",
+      "subarea": [
+        {
+          "group_name": "tb_product_install_status",
+          "label": "待施工",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_product_install_status",
+          "label": "已施工",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_feedback_table_name",
+      "subarea": [
+        {
+          "group_name": "tb_feedback_table_name",
+          "label": "车辆",
+          "value": "Car"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_lite_order_status",
+      "subarea": [
+        {
+          "group_name": "tb_lite_order_status",
+          "label": "未施工",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_lite_order_status",
+          "label": "已施工",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_sms_task_detail_type ",
+      "subarea": [
+        {
+          "group_name": "tb_sms_task_detail_type ",
+          "label": "回复",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_sms_task_detail_type ",
+          "label": "发送",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_order_feedback_status",
+      "subarea": [
+        {
+          "group_name": "tb_order_feedback_status",
+          "label": "通过",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_order_feedback_status",
+          "label": "不通过",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_car_bind_log_type",
+      "subarea": [
+        {
+          "group_name": "tb_car_bind_log_type",
+          "label": "解绑",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_car_bind_log_type",
+          "label": "绑定",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_robbery_business_company",
+      "subarea": [
+        {
+          "group_name": "tb_robbery_business_company",
+          "label": "华安",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_robbery_business_company",
+          "label": "上海人保",
+          "value": "2"
+        },
+        {
+          "group_name": "tb_robbery_business_company",
+          "label": "武汉人保",
+          "value": "3"
+        },
+        {
+          "group_name": "tb_robbery_business_company",
+          "label": "东莞人保",
+          "value": "4"
+        },
+        {
+          "group_name": "tb_robbery_business_company",
+          "label": "武汉人保(建元)",
+          "value": "5"
+        },
+        {
+          "group_name": "tb_robbery_business_company",
+          "label": "武汉人保(极致车网)",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_ts_driver_event_type",
+      "subarea": [
+        {
+          "group_name": "tb_ts_driver_event_type",
+          "label": "正常装货",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_ts_driver_event_type",
+          "label": "正常卸货",
+          "value": "2"
+        },
+        {
+          "group_name": "tb_ts_driver_event_type",
+          "label": "异常装货",
+          "value": "3"
+        },
+        {
+          "group_name": "tb_ts_driver_event_type",
+          "label": "异常卸货",
+          "value": "4"
+        },
+        {
+          "group_name": "tb_ts_driver_event_type",
+          "label": "装货完成",
+          "value": "5"
+        },
+        {
+          "group_name": "tb_ts_driver_event_type",
+          "label": "卸货完成",
+          "value": "6"
+        },
+        {
+          "group_name": "tb_ts_driver_event_type",
+          "label": "超载",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_ts_driver_config_type",
+      "subarea": [
+        {
+          "group_name": "tb_ts_driver_config_type",
+          "label": "一拖一",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_ts_driver_config_type",
+          "label": "一拖二",
+          "value": "2"
+        },
+        {
+          "group_name": "tb_ts_driver_config_type",
+          "label": "一拖三",
+          "value": "3"
+        },
+        {
+          "group_name": "tb_ts_driver_config_type",
+          "label": "一拖四",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_driver_repair_records_status",
+      "subarea": [
+        {
+          "group_name": "tb_driver_repair_records_status",
+          "label": "进行中",
+          "value": "0"
+        },
+        {
+          "group_name": "tb_driver_repair_records_status",
+          "label": "已完成",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_driver_repair_records_status",
+          "label": "已完成-退库",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_procurement_order_type",
+      "subarea": [
+        {
+          "group_name": "tb_procurement_order_type",
+          "label": "采购",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_procurement_order_type",
+          "label": "退货",
+          "value": "2"
+        },
+        {
+          "group_name": "tb_procurement_order_type",
+          "label": "换货",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_procurement_order_status",
+      "subarea": [
+        {
+          "group_name": "tb_procurement_order_status",
+          "label": "待确认",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_procurement_order_status",
+          "label": "已确认",
+          "value": "2"
+        },
+        {
+          "group_name": "tb_procurement_order_status",
+          "label": "已发货",
+          "value": "3"
+        },
+        {
+          "group_name": "tb_procurement_order_status",
+          "label": "已取消",
+          "value": "4"
+        },
+        {
+          "group_name": "tb_procurement_order_status",
+          "label": "已退货",
+          "value": "6"
+        },
+        {
+          "group_name": "tb_procurement_order_status",
+          "label": "已收货",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_driver_config_config_type",
+      "subarea": [
+        {
+          "group_name": "tb_driver_config_config_type",
+          "label": "一拖一",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_driver_config_config_type",
+          "label": "一拖四",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_driver_platform",
+      "subarea": [
+        {
+          "group_name": "tb_driver_platform",
+          "label": "易控",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_driver_platform",
+          "label": "天易在线",
+          "value": "2"
+        },
+        {
+          "group_name": "tb_driver_platform",
+          "label": "SVIP&TVIP",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_robbery_business_single_money",
+      "subarea": [
+        {
+          "group_name": "tb_robbery_business_single_money",
+          "label": "5000",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_robbery_business_single_money",
+          "label": "10000",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_car_offline_report_status",
+      "subarea": [
+        {
+          "group_name": "tb_car_offline_report_status",
+          "label": "创建",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_car_offline_report_status",
+          "label": "成功",
+          "value": "2"
+        },
+        {
+          "group_name": "tb_car_offline_report_status",
+          "label": "失败",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "group_name": "tb__record_log_user_type",
+      "subarea": [
+        {
+          "group_name": "tb__record_log_user_type",
+          "label": "易控",
+          "value": "1"
+        },
+        {
+          "group_name": "tb__record_log_user_type",
+          "label": "天易在线",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_driver_repair_task_type",
+      "subarea": [
+        {
+          "group_name": "tb_driver_repair_task_type",
+          "label": "设备检测",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_driver_repair_task_type",
+          "label": "设备维修",
+          "value": "2"
+        },
+        {
+          "group_name": "tb_driver_repair_task_type",
+          "label": "工单维修更换",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_driver_config_config_car_type",
+      "subarea": [
+        {
+          "group_name": "tb_driver_config_config_car_type",
+          "label": "物流车辆",
+          "value": "logistic"
+        },
+        {
+          "group_name": "tb_driver_config_config_car_type",
+          "label": "环卫车辆",
+          "value": "clean"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_article_type",
+      "subarea": [
+        {
+          "group_name": "tb_article_type",
+          "label": "问题中心",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_article_status",
+      "subarea": [
+        {
+          "group_name": "tb_article_status",
+          "label": "启用",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_article_status",
+          "label": "禁用",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_driver_weight_model",
+      "subarea": [
+        {
+          "group_name": "tb_driver_weight_model",
+          "label": "TYB808",
+          "value": "TYB808"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_driver_repair_task_status",
+      "subarea": [
+        {
+          "group_name": "tb_driver_repair_task_status",
+          "label": "进行中",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_driver_repair_task_status",
+          "label": "已完成",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_driver_install_channel",
+      "subarea": [
+        {
+          "group_name": "tb_driver_install_channel",
+          "label": "微信小工具",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_driver_install_channel",
+          "label": "工单",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_customer_service_order_visitor_channel",
+      "subarea": [
+        {
+          "group_name": "tb_customer_service_order_visitor_channel",
+          "label": "400热线",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_customer_service_order_visitor_channel",
+          "label": "微信公众号",
+          "value": "2"
+        },
+        {
+          "group_name": "tb_customer_service_order_visitor_channel",
+          "label": "邮件",
+          "value": "3"
+        },
+        {
+          "group_name": "tb_customer_service_order_visitor_channel",
+          "label": "销售反馈",
+          "value": "4"
+        },
+        {
+          "group_name": "tb_customer_service_order_visitor_channel",
+          "label": "呼叫中心",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_customer_service_order_source_platform",
+      "subarea": [
+        {
+          "group_name": "tb_customer_service_order_source_platform",
+          "label": "易控",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_customer_service_order_source_platform",
+          "label": "天易在线",
+          "value": "2"
+        },
+        {
+          "group_name": "tb_customer_service_order_source_platform",
+          "label": "其他",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_customer_service_order_detail_action_type",
+      "subarea": [
+        {
+          "group_name": "tb_customer_service_order_detail_action_type",
+          "label": "新装拉车",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_customer_service_order_detail_action_type",
+          "label": "改时间",
+          "value": "2"
+        },
+        {
+          "group_name": "tb_customer_service_order_detail_action_type",
+          "label": "信息修改",
+          "value": "3"
+        },
+        {
+          "group_name": "tb_customer_service_order_detail_action_type",
+          "label": "离线分析和处理",
+          "value": "4"
+        },
+        {
+          "group_name": "tb_customer_service_order_detail_action_type",
+          "label": "维修派工",
+          "value": "5"
+        },
+        {
+          "group_name": "tb_customer_service_order_detail_action_type",
+          "label": "客户反馈",
+          "value": "6"
+        },
+        {
+          "group_name": "tb_customer_service_order_detail_action_type",
+          "label": "信息查询",
+          "value": "7"
+        },
+        {
+          "group_name": "tb_customer_service_order_detail_action_type",
+          "label": "未合作客户来访登记",
+          "value": "8"
+        },
+        {
+          "group_name": "tb_customer_service_order_detail_action_type",
+          "label": "设备结清",
+          "value": "9"
+        },
+        {
+          "group_name": "tb_customer_service_order_detail_action_type",
+          "label": "金融风控",
+          "value": "10"
+        },
+        {
+          "group_name": "tb_customer_service_order_detail_action_type",
+          "label": "其他售后问题处理",
+          "value": "11"
+        },
+        {
+          "group_name": "tb_customer_service_order_detail_action_type",
+          "label": "设备结清",
+          "value": "12"
+        },
+        {
+          "group_name": "tb_customer_service_order_detail_action_type",
+          "label": "金融风控",
+          "value": "13"
+        },
+        {
+          "group_name": "tb_customer_service_order_detail_action_type",
+          "label": "其他",
+          "value": "14"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_customer_service_order_detail_status",
+      "subarea": [
+        {
+          "group_name": "tb_customer_service_order_detail_status",
+          "label": "处理中",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_customer_service_order_detail_status",
+          "label": "已完成",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "group_name": "新客户咨询",
+      "subarea": [
+        {
+          "group_name": "新客户咨询",
+          "label": "新客户咨询",
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_robbery_business_insure_number",
+      "subarea": [
+        {
+          "group_name": "tb_robbery_business_insure_number",
+          "label": "武汉人保",
+          "value": "PZAH201942010000000069"
+        },
+        {
+          "group_name": "tb_robbery_business_insure_number",
+          "label": "东莞人保",
+          "value": "PZAI201944190000000080"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_management_status",
+      "subarea": [
+        {
+          "group_name": "tb_management_status",
+          "label": "生效",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_management_status",
+          "label": "失效",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_warning_message_status",
+      "subarea": [
+        {
+          "group_name": "tb_warning_message_status",
+          "label": "有效",
+          "value": "0"
+        },
+        {
+          "group_name": "tb_warning_message_status",
+          "label": "无效",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_mortgage_type",
+      "subarea": [
+        {
+          "group_name": "tb_mortgage_type",
+          "label": "代办抵押",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_mortgage_type",
+          "label": "解除抵押",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_mortgage_status",
+      "subarea": [
+        {
+          "group_name": "tb_mortgage_status",
+          "label": "待上门",
+          "value": "20"
+        },
+        {
+          "group_name": "tb_mortgage_status",
+          "label": "待完成",
+          "value": "30"
+        },
+        {
+          "group_name": "tb_mortgage_status",
+          "label": "待审核",
+          "value": "40"
+        },
+        {
+          "group_name": "tb_mortgage_status",
+          "label": "待收件",
+          "value": "60"
+        },
+        {
+          "group_name": "tb_mortgage_status",
+          "label": "待邮寄",
+          "value": "50"
+        },
+        {
+          "group_name": "tb_mortgage_status",
+          "label": "已完成",
+          "value": "70"
+        },
+        {
+          "group_name": "tb_mortgage_status",
+          "label": "已取消",
+          "value": "80"
+        },
+        {
+          "group_name": "tb_mortgage_status",
+          "label": "待受理",
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_mortgage_status_v2",
+      "subarea": [
+        {
+          "group_name": "tb_mortgage_status_v2",
+          "label": "待确认",
+          "value": "10"
+        },
+        {
+          "group_name": "tb_mortgage_status_v2",
+          "label": "待派单",
+          "value": "20"
+        },
+        {
+          "group_name": "tb_mortgage_status_v2",
+          "label": "待上门",
+          "value": "30"
+        },
+        {
+          "group_name": "tb_mortgage_status_v2",
+          "label": "待完成",
+          "value": "40"
+        },
+        {
+          "group_name": "tb_mortgage_status_v2",
+          "label": "待邮寄",
+          "value": "50"
+        },
+        {
+          "group_name": "tb_mortgage_status_v2",
+          "label": "待收件",
+          "value": "60"
+        },
+        {
+          "group_name": "tb_mortgage_status_v2",
+          "label": "已完成",
+          "value": "70"
+        },
+        {
+          "group_name": "tb_mortgage_status_v2",
+          "label": "已取消",
+          "value": "80"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_stat_car_risk_records_tag_type",
+      "subarea": [
+        {
+          "group_name": "tb_stat_car_risk_records_tag_type",
+          "label": "系统分析",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_stat_car_risk_records_tag_type",
+          "label": "人为分析",
+          "value": "2"
+        },
+        {
+          "group_name": "tb_stat_car_risk_records_tag_type",
+          "label": "系统分析",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_stat_car_risk_records_tag_type",
+          "label": "人为分析",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_stat_car_risk_records_risk_type",
+      "subarea": [
+        {
+          "group_name": "tb_stat_car_risk_records_risk_type",
+          "label": "正常",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_stat_car_risk_records_risk_type",
+          "label": "可疑",
+          "value": "2"
+        },
+        {
+          "group_name": "tb_stat_car_risk_records_risk_type",
+          "label": "高危",
+          "value": "3"
+        },
+        {
+          "group_name": "tb_stat_car_risk_records_risk_type",
+          "label": "正常",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_stat_car_risk_records_risk_type",
+          "label": "可疑",
+          "value": "2"
+        },
+        {
+          "group_name": "tb_stat_car_risk_records_risk_type",
+          "label": "高危",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_robbery_business_business_type",
+      "subarea": [
+        {
+          "group_name": "tb_robbery_business_business_type",
+          "label": "盗抢险",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_robbery_business_business_type",
+          "label": "责信险",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_visit_status",
+      "subarea": [
+        {
+          "group_name": "tb_visit_status",
+          "label": "待派单",
+          "value": "10"
+        },
+        {
+          "group_name": "tb_visit_status",
+          "label": "待上门",
+          "value": "20"
+        },
+        {
+          "group_name": "tb_visit_status",
+          "label": "待签到",
+          "value": "30"
+        },
+        {
+          "group_name": "tb_visit_status",
+          "label": "办理中",
+          "value": "40"
+        },
+        {
+          "group_name": "tb_visit_status",
+          "label": "待审核",
+          "value": "50"
+        },
+        {
+          "group_name": "tb_visit_status",
+          "label": "已完成",
+          "value": "60"
+        },
+        {
+          "group_name": "tb_visit_status",
+          "label": "无效业务",
+          "value": "70"
+        },
+        {
+          "group_name": "tb_visit_status",
+          "label": "已取消",
+          "value": "80"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_mortgage_get_key",
+      "subarea": [
+        {
+          "group_name": "tb_mortgage_get_key",
+          "label": "是",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_mortgage_get_key",
+          "label": "否",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_driver_offline_detail_feedback",
+      "subarea": [
+        {
+          "group_name": "tb_driver_offline_detail_feedback",
+          "label": "设备离线地点不准确",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_driver_offline_detail_feedback",
+          "label": "设备假性离线",
+          "value": "2"
+        },
+        {
+          "group_name": "tb_driver_offline_detail_feedback",
+          "label": "设备因安装问题离线",
+          "value": "3"
+        },
+        {
+          "group_name": "tb_driver_offline_detail_feedback",
+          "label": "离线地址附近无异常兴趣点",
+          "value": "4"
+        },
+        {
+          "group_name": "tb_driver_offline_detail_feedback",
+          "label": "车主个人原因离线",
+          "value": "5"
+        },
+        {
+          "group_name": "tb_driver_offline_detail_feedback",
+          "label": "车辆亏电离线",
+          "value": "6"
+        },
+        {
+          "group_name": "tb_driver_offline_detail_feedback",
+          "label": "其他",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_car_status",
+      "subarea": [
+        {
+          "group_name": "tb_car_status",
+          "label": "正常",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_car_status",
+          "label": "已结清",
+          "value": "2"
+        },
+        {
+          "group_name": "tb_car_status",
+          "label": "未结清",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_car_is_clearing",
+      "subarea": [
+        {
+          "group_name": "tb_car_is_clearing",
+          "label": "未结清",
+          "value": "0"
+        },
+        {
+          "group_name": "tb_car_is_clearing",
+          "label": "结清",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_car_grade",
+      "subarea": [
+        {
+          "group_name": "tb_car_grade",
+          "label": "正常",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_car_grade",
+          "label": "可疑",
+          "value": "2"
+        },
+        {
+          "group_name": "tb_car_grade",
+          "label": "高危",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_export_report_task_exportType",
+      "subarea": [
+        {
+          "group_name": "tb_export_report_task_exportType",
+          "label": "里程汇总",
+          "value": "0"
+        },
+        {
+          "group_name": "tb_export_report_task_exportType",
+          "label": "里程明细",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_export_report_task_exportType",
+          "label": "历史停车",
+          "value": "2"
+        },
+        {
+          "group_name": "tb_export_report_task_exportType",
+          "label": "历史离线",
+          "value": "3"
+        },
+        {
+          "group_name": "tb_export_report_task_exportType",
+          "label": "常停点",
+          "value": "4"
+        },
+        {
+          "group_name": "tb_export_report_task_exportType",
+          "label": "跨区报警",
+          "value": "5"
+        },
+        {
+          "group_name": "tb_export_report_task_exportType",
+          "label": "地址异常",
+          "value": "6"
+        },
+        {
+          "group_name": "tb_export_report_task_exportType",
+          "label": "黑区报警",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_cycle_export_status",
+      "subarea": [
+        {
+          "group_name": "tb_cycle_export_status",
+          "label": "成功",
+          "value": "2"
+        },
+        {
+          "group_name": "tb_cycle_export_status",
+          "label": "失败",
+          "value": "9"
+        },
+        {
+          "group_name": "tb_cycle_export_status",
+          "label": "下载中",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_driver_offline_detail_risk_grade",
+      "subarea": [
+        {
+          "group_name": "tb_driver_offline_detail_risk_grade",
+          "label": "1",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_driver_offline_detail_risk_grade",
+          "label": "2",
+          "value": "2"
+        },
+        {
+          "group_name": "tb_driver_offline_detail_risk_grade",
+          "label": "3",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_trailer_user_car_status",
+      "subarea": [
+        {
+          "group_name": "tb_trailer_user_car_status",
+          "label": "拖车中",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_trailer_user_car_status",
+          "label": "拖车结束",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "group_name": "tb_car_batch_driver_status",
+      "subarea": [
+        {
+          "group_name": "tb_car_batch_driver_status",
+          "label": "正常",
+          "value": "1"
+        },
+        {
+          "group_name": "tb_car_batch_driver_status",
+          "label": "部分离线",
+          "value": "2"
+        },
+        {
+          "group_name": "tb_car_batch_driver_status",
+          "label": "全部离线",
+          "value": "3"
+        }
+      ]
+    }
+  ]
+}
