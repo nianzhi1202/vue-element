@@ -42,36 +42,18 @@ const routerList = [
     {
         url: '',
         icon: 'wt-icon-shebei',
-        name: '设备管理',
+        name: '文件上传',
         children: [
             {
-                url: '/driver/index',
+                url: '/images/index',
                 icon: 'wt-icon-equipment',
-                name: '设备列表',
+                name: '图片上传与预览',
                 children: []
             },
             {
                 url: '/driver/unused_index',
                 icon: 'wt-icon-kucun',
-                name: '闲置列表',
-                children: []
-            },
-            {
-                url: '/driver/unInstall_index',
-                icon: 'wt-icon-kucun',
-                name: '库存列表',
-                children: []
-            },
-            {
-                url: '/driver/renew_index',
-                icon: 'wt-icon-xufeizhongxin',
-                name: '续费列表',
-                children: []
-            },
-            {
-                url: '/driver/driver_offline_detail',
-                icon: 'wt-icon-lixian',
-                name: '离线明细',
+                name: '文件上传',
                 children: []
             }
         ]

@@ -9,22 +9,20 @@
 
     import CommonPlugins from './components/CommonPlugins'
     import User from './models/User'
+
     const user = new User()
     export default {
         name: 'app',
-        components: { CommonPlugins },
+        components: {CommonPlugins},
 
-        data () {
-            return {
-
-            }
+        data() {
+            return {}
         },
-        mounted () {
+        mounted() {
             // 每次刷新后更新用户信息、权限信息
-            console.log(user.isLogin())
+            // cookie中只存放了token，用户信息、权限信息登录api会返回，主动刷新需重新获取
             if (user.isLogin()) {
-                User.viewsUser({ type: 2 }, ({ type, data }) => {
-                    console.log(type)
+                User.viewsUser({type: 2}, ({type, data}) => {
                     if (type === 'success') {
                         this.$store.commit('handleUserInfo', data.data)
                     } else {
@@ -42,18 +40,12 @@
                 this.$store.commit('logout')
             }
         },
-        created () {
+        created() {
 
         },
-        methods: {
-
-        },
-        computed: {
-
-        },
-        watch: {
-
-        }
+        methods: {},
+        computed: {},
+        watch: {}
     }
 
 </script>

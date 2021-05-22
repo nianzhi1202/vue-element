@@ -1,5 +1,5 @@
-import main from '../../configs/main'
+import config from '../../configs/config'
 
 export default {
-    title: main.appName
+    title: config.appName
 }

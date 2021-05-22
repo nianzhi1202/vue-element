@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import main from '../../configs/main'
+import config from '../../configs/config'
 import api from '../../configs/api'
 import ObjectHelper from '../helpers/ObjectHelper'
 import store from '../../store'
@@ -30,7 +30,7 @@ export default class Request {
      */
     static defaultErrorCallback(response, status, store) {
         // 访问出错的默认处理逻辑
-        main.api && typeof main.api.errorCallBack === 'function' && main.api.errorCallBack(response, status, store)
+        config.api && typeof config.api.errorCallBack === 'function' && config.api.errorCallBack(response, status, store)
     }
 
     /**
@@ -40,9 +40,9 @@ export default class Request {
      * @param {function} successCb
      */
     static pathParse(response, urlItem, successCb) {
-        if (main.api && main.api.defaultMaps) {
+        if (config.api && config.api.defaultMaps) {
             if (typeof urlItem.maps !== 'object') {
-                urlItem.maps = main.api.defaultMaps
+                urlItem.maps = config.api.defaultMaps
             }
         }
 
@@ -64,12 +64,18 @@ export default class Request {
                         data = this.dataParse(response, map.data)
                     }
                     // response是axios请求返回的原始信息，data和type是处理后的简洁数据
-                    successCb({type: map.type, data: data}, response)
+                    successCb({
+                        type: map.type,
+                        data: data
+                    }, response)
                     return
                 }
             }
         }
-        successCb({type: undefined, data: {}}, response)
+        successCb({
+            type: undefined,
+            data: {}
+        }, response)
     }
 
     /**
@@ -80,7 +86,7 @@ export default class Request {
     static parseOptions(options) {
         options.params = options.params || {}
         options.headers = options.headers || {}
-        const authConfig = main.api.auth
+        const authConfig = config.api.auth
         if (authConfig && authConfig.autoAdd === true && store.state.accessToken && !options.headers.Authorization) {
             options.headers[authConfig.authName] = authConfig.authTemplate.replace('{token}', store.state.accessToken)
         }
@@ -150,7 +156,10 @@ export default class Request {
         }
 
         if (!this.allowCall(urlItem)) {
-            const res = {status: 403, message: '无权访问'}
+            const res = {
+                status: 403,
+                message: '无权访问'
+            }
             typeof errorCb === 'function' ? errorCb(res, 403) : this.defaultErrorCallback(res, 403)
             return
         }
@@ -175,7 +184,10 @@ export default class Request {
         const urlItem = this.getUrlForName(urlName) ? this.getUrlForName(urlName) : {url: urlName}
 
         if (!this.allowCall(urlItem)) {
-            const res = {status: 403, message: '无权访问'}
+            const res = {
+                status: 403,
+                message: '无权访问'
+            }
             typeof errorCb === 'function' ? errorCb(res, 403) : this.defaultErrorCallback(res, 403)
             return
         }
@@ -200,7 +212,10 @@ export default class Request {
         options = this.parseOptions(options)
 
         if (!this.allowCall(urlItem)) {
-            const res = {status: 403, message: '无权访问'}
+            const res = {
+                status: 403,
+                message: '无权访问'
+            }
             typeof errorCb === 'function' ? errorCb(res, 403) : this.defaultErrorCallback(res, 403)
             return
         }

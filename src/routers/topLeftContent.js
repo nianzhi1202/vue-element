@@ -4,6 +4,7 @@ const ErrorNotFound = () => import('@/views/error/notFound')
 const Index = () => import('@/views/index/index')
 const Echarts = () => import('@/views/echarts/index')
 const Map = () => import('@/views/map/index')
+const Images = () => import('@/views/images/index')
 
 export default [
     {
@@ -41,6 +42,19 @@ export default [
                 {
                     name: 'table列表',
                     url: '/car/index'
+                }
+            ]
+        }
+    },
+    {
+        path: '/images/index',
+        name: '图片',
+        component: Images,
+        meta: {
+            breadcrumb: [
+                {
+                    name: '图片',
+                    url: '/images/index'
                 }
             ]
         }

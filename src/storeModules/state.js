@@ -4,8 +4,8 @@ import modal from './states/modal'
 import notice from './states/notice'
 import messageBox from './states/messageBox'
 import loading from './states/loading'
+let user = ''
 let accessToken
-const userInfo = ''
 
 export default {
     test: test,
@@ -24,9 +24,11 @@ export default {
     // loading遮罩
     loading: loading,
 
-    // 用户模块，管理登录、注销以及用户信息
     accessToken: accessToken,
-    userInfo: userInfo,
+
+    // 用户模块，管理登录、注销以及用户信息
+    userInfo: user,
+
     // 数据词典
     dataDict: [],
 
@@ -58,6 +60,6 @@ export default {
     },
 
     currentRoute: null,
-    // 弹框组件中调用组件使用props传值会提示外部修改store，应该是props修改了store（严格模式下），尝试用store传值
+    // 测试 - 弹框组件中调用组件使用props传值会提示外部修改store，应该是props修改了store（严格模式下），尝试用store传值
     modalPropsData: []
 }

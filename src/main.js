@@ -5,17 +5,24 @@ import VueCookies from 'vue-cookies'
 import App from './App.vue'
 import router from './routers'
 import store from './store'
-import main from './configs/main'
-import common from './cores/common/common'
+import config from './configs/config'
+import common from './cores/common/common' // 测试全局modal
+import './configs/import'
 
 Vue.use(VueAxios, axios)
 Vue.use(VueCookies)
 Vue.use(common)
 
-Vue.config.productionTip = false
+Vue.config.productionTip = config.debug
 
 // 从cookie中读取token
 store.commit('setAccessToken', VueCookies.get('accessToken'), true)
+
+Vue.config.errorHandler = (error, vm) => {
+    if (config.env === 'dev') {
+        console.log(error)
+    }
+}
 
 Promise.all([
     import('./plugins/element.js')

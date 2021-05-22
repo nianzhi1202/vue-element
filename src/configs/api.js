@@ -1,8 +1,10 @@
-import main from './main'
+import config from './config'
+
 let baseUrl = '生产'
-if (main.env === 'dev') {
+if (config.env === 'dev') {
     baseUrl = 'http://localhost:8080/'
 }
+
 export default {
     login: {
         url: baseUrl + 'v1/site/login'
@@ -10,6 +12,11 @@ export default {
 
     tableList: {
         url: baseUrl + 'v1/table/index'
+    },
+
+    // 图片上传
+    upload: {
+        url: 'http://106.14.9.89:6066/v1/upload/file-url'
     },
     // 获取引导页
     navigationPageGet: {

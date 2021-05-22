@@ -30,10 +30,10 @@
                 <template slot="operation">
                     <el-row class="button" style="text-align: right;">
                         <el-button size="small" v-permission="'客户端_V2_系统设置_用户管理_新增'" @click="changeStore"
-                                   class="button-tag">转移门店
+                                   class="button-tag">批量操作0
                         </el-button>
-                        <el-button size="small" class="button-tag">关联标签</el-button>
-                        <el-button size="small" class="button button-tag">逾期标记</el-button>
+                        <el-button size="small" class="button-tag">批量操作1</el-button>
+                        <el-button size="small" class="button button-tag">批量操作2</el-button>
                     </el-row>
                 </template>
 
