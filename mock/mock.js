@@ -408,3 +408,12 @@ Mock.mock('http://localhost:8080/v1/user/view?type=2', {
         'store_id_view': '易控各种用途测试'
     }
 })
+
+Mock.mock('http://localhost:8080/v1/upload/file-url',{
+    "success":true,
+    "status":200,
+    "message":"成功",
+    "data":{
+        "url":"http://tianyibao.oss-cn-beijing.aliyuncs.com/order/60a8a3dc223aa.jpg"
+    }
+})
