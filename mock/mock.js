@@ -414,6 +414,6 @@ Mock.mock('http://localhost:8080/v1/upload/file-url',{
     "status":200,
     "message":"成功",
     "data":{
-        "url":"http://tianyibao.oss-cn-beijing.aliyuncs.com/order/60a8a3dc223aa.jpg"
+        "item":"http://tianyibao.oss-cn-beijing.aliyuncs.com/order/60a8a3dc223aa.jpg"
     }
 })
