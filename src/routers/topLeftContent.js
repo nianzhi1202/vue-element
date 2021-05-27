@@ -5,6 +5,7 @@ const Index = () => import('@/views/index/index')
 const Echarts = () => import('@/views/echarts/index')
 const Map = () => import('@/views/map/index')
 const Images = () => import('@/views/images/index')
+const GoodsCreate = () => import('@/views/goods/create')
 
 export default [
     {
@@ -35,10 +36,14 @@ export default [
     },
     {
         path: '/car/index',
-        name: 'table列表',
+        name: '列表',
         component: CarIndex,
         meta: {
             breadcrumb: [
+                {
+                    name: '列表',
+                    url: '/car/index'
+                },
                 {
                     name: 'table列表',
                     url: '/car/index'
@@ -48,26 +53,47 @@ export default [
     },
     {
         path: '/images/index',
-        name: '图片',
+        name: '文件上传',
         component: Images,
         meta: {
             breadcrumb: [
                 {
-                    name: '图片',
-                    url: '/images/index'
+                    name: '文件上传',
+                    url: ''
+                },
+                {
+                    name: '文件上传与预览',
+                    url: ''
                 }
             ]
         }
     },
     {
-        path: '/robberyBusiness/index',
-        name: '保单列表',
-        component: RobberyBusiness,
+        path: '/goods/create',
+        name: '新增商品',
+        component: GoodsCreate,
         meta: {
             breadcrumb: [
                 {
-                    name: '保单列表',
-                    url: '/robberyBusiness/index'
+                    name: '商品管理',
+                    url: 'goods/index'
+                },
+                {
+                    name: '新增商品',
+                    url: 'goods/create'
+                }
+            ]
+        }
+    },
+    {
+        path: '/goods/create',
+        name: '商品管理',
+        component: GoodsCreate,
+        meta: {
+            breadcrumb: [
+                {
+                    name: '新增商品',
+                    url: '/goods/create'
                 }
             ]
         }

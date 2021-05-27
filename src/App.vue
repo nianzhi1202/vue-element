@@ -18,7 +18,7 @@
         data() {
             return {}
         },
-        mounted() {
+        created() {
             // 每次刷新后更新用户信息、权限信息
             // cookie中只存放了token，用户信息、权限信息登录api会返回，主动刷新需重新获取
             if (user.isLogin()) {
@@ -39,9 +39,6 @@
                 }
                 this.$store.commit('logout')
             }
-        },
-        created() {
-
         },
         methods: {},
         computed: {},

@@ -23,7 +23,7 @@ const routerList = [
     {
         url: '',
         icon: 'wt-icon-lou',
-        name: 'table列表',
+        name: '列表',
         children: [
             {
                 url: '/car/index',
@@ -34,7 +34,7 @@ const routerList = [
             {
                 url: '/car/create',
                 icon: 'wt-icon-cheliangguanli1',
-                name: '列表',
+                name: '列表12',
                 children: []
             }
         ]
@@ -61,30 +61,12 @@ const routerList = [
     {
         url: '',
         icon: 'wt-icon-caidan',
-        name: '工单管理',
+        name: '商品管理',
         children: [
             {
-                url: '/order-v2/create',
+                url: '/goods/create',
                 icon: 'wt-icon-xinzenggongdan',
-                name: '新增工单',
-                children: []
-            },
-            {
-                url: '/order/quickCreate',
-                icon: 'wt-icon-kuaijiexiadan',
-                name: '快捷下单',
-                children: []
-            },
-            {
-                url: '/order/index',
-                icon: 'wt-icon-gongdanguanli',
-                name: '工单列表',
-                children: []
-            },
-            {
-                url: '/order/config/index',
-                icon: 'wt-icon-shezhi',
-                name: '常用联系人',
+                name: '新增商品',
                 children: []
             }
         ]

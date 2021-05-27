@@ -37,6 +37,12 @@ Vue.directive('permission', {
         if (!permission.hasPermission(binding.value)) {
             dom.parentNode && dom.parentNode.removeChild(dom)
         }
+    },
+    inserted: function (dom, binding) {
+        // 没有权限则删除不显示
+        if (!permission.hasPermission(binding.value)) {
+            dom.parentNode && dom.parentNode.removeChild(dom)
+        }
     }
 })
 

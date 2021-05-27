@@ -55,6 +55,7 @@ export default {
 
     handleUserInfo: (state, userInfo) => {
         state.userInfo = userInfo
+        state.permission = userInfo.permissionList
         localStorage.setItem('userInfo', JSON.stringify(userInfo))
     },
 
@@ -66,10 +67,6 @@ export default {
     // 记住密码状态
     updateCheckedPwd(state, status) {
         state.checkedPwd = status
-    },
-
-    updatePermision(state, data) {
-        state.permission = data
     },
 
     updateIndexPage(state, data) {
