@@ -6,6 +6,7 @@ const Echarts = () => import('@/views/echarts/index')
 const Map = () => import('@/views/map/index')
 const Images = () => import('@/views/images/index')
 const GoodsCreate = () => import('@/views/goods/create')
+const ErrorNotAllow = () => import('@/views/error/notAllow')
 
 export default [
     {
@@ -69,10 +70,11 @@ export default [
         }
     },
     {
-        path: '/goods/create',
+        path: 'goods/create',
         name: '新增商品',
         component: GoodsCreate,
         meta: {
+            permission: '客户_中都客户管理员',
             breadcrumb: [
                 {
                     name: '商品管理',
@@ -86,10 +88,11 @@ export default [
         }
     },
     {
-        path: '/goods/create',
+        path: '/goods/form',
         name: '商品管理',
         component: GoodsCreate,
         meta: {
+            permission: '客户_中都客户管理员_无权',
             breadcrumb: [
                 {
                     name: '新增商品',
@@ -104,15 +107,12 @@ export default [
         component: Index,
         meta: {}
     },
-    // {
-    //     path: '/error/not-allow',
-    //     name: 'notAllow',
-    //     label: '未授权访问',
-    //     meta: {
-    //         login: false,
-    //     },
-    //     component: ErrorNotAllow,
-    // },
+    {
+        path: '/error/not-allow',
+        name: '未授权访问',
+        component: ErrorNotAllow,
+        meta: {}
+    },
     {
         path: '*',
         name: '/error/not-found',

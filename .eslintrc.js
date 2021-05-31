@@ -22,6 +22,7 @@ module.exports = {
         'eqeqeq': 0,//处理两个==的报错
         'object-curly-spacing': 0,//处理对象与字符之间必须有空格
         'prefer-const':0,
+        'no-inner-declarations':0
 
     }
 }

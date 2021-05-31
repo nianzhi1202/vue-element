@@ -5,6 +5,10 @@ import TopLeftContent from './topLeftContent'
 import ContentLayout from '../views/layout/Content'
 import Content from './content'
 import TopContent from './topContent'
+import store from '../store'
+import Permission from '../directive/permission/permission'
+import User from '../models/User'
+
 const TopContentLayout = () => import('@/views/layout/TopContent')
 
 Vue.use(VueRouter)
@@ -38,4 +42,44 @@ const router = new VueRouter({
 
     ]
 })
+
+router.beforeEach(async (to, from, next) => {
+    if (store.state.accessToken) { // 已登录
+        if (to.path == '/site/login') {
+            next({path: '/'})
+        }
+        // 登录后刷新页面时 重新获取权限和用户信息
+        if (store.state.permission.length == 0) {
+            await viewsUser()
+        }
+        // 没有权限则跳转到404页面
+        if (!Permission.hasPermission(to.meta.permission)) {
+            next({path: '/error/not-allow'})
+        }
+        next()
+    } else { // 未登录
+        if (to.path !== '/site/login') {
+            store.commit('logout')
+            next({path: '/site/login'})
+        }
+    }
+})
+
+function viewsUser() {
+    return new Promise((resolve) => {
+        User.viewsUser({type: 2}, ({type, data}) => {
+            if (type === 'success') {
+                store.commit('handleUserInfo', data.data)
+                resolve(true)
+            } else {
+                User.logout()
+                resolve(false)
+            }
+        }, () => {
+            User.logout()
+            resolve(false)
+        })
+    })
+}
+
 export default router

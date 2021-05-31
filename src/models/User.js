@@ -93,9 +93,10 @@ class User extends BaseModel {
 
     /**
      * 是否登录
-     * @returns {boolean}
+     * @returns {null}
      */
-    isLogin() {
+    static isLogin() {
+        console.log(store.state.accessToken)
         return store.state.accessToken
     }
 
@@ -104,12 +105,11 @@ class User extends BaseModel {
      * @param {object} params 参数
      * @param {function} fn 回调
      */
-    static login(params, fn, checkedPwd) {
+    static login(params, fn) {
         Request.post('login', { params: params }, ({type, data}, res) => {
             if (type !== 'success') {
                 typeof fn === 'function' ? fn({type, data}, res) : ''
             } else {
-                store.commit('updateCheckedPwd', checkedPwd)
                 store.commit('setAccessToken', res.data.data.token)
                 store.commit('handleUserInfo', res.data.data.userInfo)
                 typeof fn === 'function' ? fn({type, data}, res) : ''

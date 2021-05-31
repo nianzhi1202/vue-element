@@ -22,8 +22,7 @@
                 <el-main class="h-div yk-main">
                     <el-title></el-title>
                     <div class="yk-content" :class="isCockpit ? 'no-padding':''" v-if="isLoad">
-                        <router-view v-if="!forbidden.state"></router-view>
-                        <not-allow v-else></not-allow>
+                        <router-view></router-view>
                     </div>
                 </el-main>
             </el-container>

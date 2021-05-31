@@ -64,16 +64,8 @@ export default {
         this.commit('setAccessToken', undefined)
     },
 
-    // 记住密码状态
-    updateCheckedPwd(state, status) {
-        state.checkedPwd = status
-    },
-
     updateIndexPage(state, data) {
         this.state.indexPage = data || 1
-    },
-
-    updateCurrentRoute(state, data) {
-        state.currentRoute = data
     }
+
 }

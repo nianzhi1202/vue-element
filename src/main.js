@@ -16,7 +16,7 @@ Vue.use(common)
 Vue.config.productionTip = config.debug
 
 // 从cookie中读取token
-store.commit('setAccessToken', VueCookies.get('accessToken'), true)
+store.commit('setAccessToken', VueCookies.get('accessToken'))
 
 Vue.config.errorHandler = (error, vm) => {
     if (config.env === 'dev') {

@@ -347,7 +347,7 @@ Mock.mock('http://localhost:8080/v1/site/login', {
             'short_name': 'test',
             'customer_id_view': '中资国信（广州）融资租赁有限公司',
             'store_id_view': '深圳市中都汽车租赁有限公司',
-            'auth_item_name': [
+            'permissionList': [
                 '客户_中都客户管理员',
                 '客户端V2_门店管理员(无指令下发)'
             ],
@@ -405,7 +405,11 @@ Mock.mock('http://localhost:8080/v1/user/view?type=2', {
         'customer_logo': 'http://tianyibao.oss-cn-beijing.aliyuncs.com/customer/5e0494824ce73.jpe',
         'short_name': '易控测试',
         'customer_id_view': '易控各种用途测试',
-        'store_id_view': '易控各种用途测试'
+        'store_id_view': '易控各种用途测试',
+        'permissionList': [
+            '客户_中都客户管理员',
+            '客户端V2_门店管理员(无指令下发)'
+        ]
     }
 })
 

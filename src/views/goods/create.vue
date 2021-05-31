@@ -15,24 +15,25 @@
         components: {ElBtnTitle},
         data() {
             return {
-                buttons: [
-                    {
-                        text: '下载照片',
-                        onClick: () => {
-                            console.log('点击了')
-                        },
-                        show: true,
-                        type: 'primary',
-                        options: {
-                            plain: ''
-                        },
-                        permission: '客户_中都客户管理员'
-                    }
-                ]
+                buttons: []
             }
         },
 
         created() {
+            this.buttons = [
+                {
+                    text: '下载照片',
+                    onClick: () => {
+                        console.log('点击了')
+                    },
+                    show: true,
+                    type: 'primary',
+                    options: {
+                        plain: ''
+                    },
+                    permission: '客户_中都客户管理员'
+                }
+            ]
         },
 
         watch: {},

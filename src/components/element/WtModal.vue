@@ -17,7 +17,7 @@
         name: 'WtModal',
         methods: {
             onClose() {
-                typeof this.modal.onClose === 'function' ? this.modal.onClose(true) : '';
+                typeof this.modal.onClose === 'function' ? this.modal.onClose(true) : ''
             }
         },
         computed: {
@@ -38,11 +38,10 @@
             },
             modalOptions() {
                 return this.modal.options
-            },
+            }
         },
         data() {
             let modal = this.dataModal
-            console.log(modal)
             return {
                 modal: modal,
                 show: false
