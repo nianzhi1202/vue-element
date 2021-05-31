@@ -16,8 +16,8 @@ export default {
 
     // 图片上传
     upload: {
-        url: 'http://106.14.9.89:6066/v1/upload/file-url'
-        // url: baseUrl + 'v1/upload/file-url'
+        // url: 'http://106.14.9.89:6066/v1/upload/file-url'
+        url: baseUrl + 'v1/upload/file-url'
     },
     // 获取引导页
     navigationPageGet: {
