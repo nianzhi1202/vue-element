@@ -22,7 +22,7 @@ export default {
     // loading遮罩
     loading: loading,
 
-    // 登录token
+    // 登录token，存在store中的额accessToken，如果不刷新浏览器，过期也不会被删除，刷新浏览器会根据cookie重新赋值
     accessToken: null,
 
     // 权限列表

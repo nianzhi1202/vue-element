@@ -5,9 +5,6 @@ import store from '../store'
 class User extends BaseModel {
     constructor(data = {}) {
         super(data)
-        this.accessToken = undefined
-        this.userInfo = '' || localStorage.getItem('userInfo')
-
         this.format = {
             store_id: {
                 label: '门店'
@@ -96,7 +93,6 @@ class User extends BaseModel {
      * @returns {null}
      */
     static isLogin() {
-        console.log(store.state.accessToken)
         return store.state.accessToken
     }
 
@@ -111,7 +107,8 @@ class User extends BaseModel {
                 typeof fn === 'function' ? fn({type, data}, res) : ''
             } else {
                 store.commit('setAccessToken', res.data.data.token)
-                store.commit('handleUserInfo', res.data.data.userInfo)
+                store.commit('setUserInfo', res.data.data.userInfo)
+                store.commit('setPermission', res.data.data.userInfo.permissionList)
                 typeof fn === 'function' ? fn({type, data}, res) : ''
             }
         })
@@ -139,17 +136,18 @@ class User extends BaseModel {
         Request.post('logout', {}, ({type}, res) => {
             if (type == 'success') {
                 store.commit('setAccessToken', null)
-                store.commit('handleUserInfo', null)
+                store.commit('setUserInfo', null)
                 typeof fn === 'function' ? fn({type}, res) : ''
             }
         })
     }
 
     getUserInfo() {
-        if (!(this.userInfo instanceof Object)) {
+        let userInfo = store.state.userInfo || localStorage.getItem('userInfo')
+        if (!(userInfo instanceof Object)) {
             return JSON.parse(this.userInfo)
         }
-        return this.userInfo
+        return userInfo
     }
 }
 

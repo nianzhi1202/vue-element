@@ -79,7 +79,7 @@
                                               })
                                               this.$store.dispatch('hideModal', true)
                                               this.$store.commit('setAccessToken', null)
-                                              this.$store.commit('handleUserInfo', null)
+                                              this.$store.commit('setUserInfo', null)
                                               this.$router.push('/site/login')
                                       } else {
                                               this.$store.dispatch('showTip', {
