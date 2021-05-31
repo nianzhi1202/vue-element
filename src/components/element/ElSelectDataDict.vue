@@ -11,9 +11,7 @@
 </template>
 
 <script>
-    // eslint-disable-next-line no-unused-vars
     import DataDict from '../../../static/json/dataDict.json' // 数据词典Json
-    // eslint-disable-next-line no-unused-vars
     import store from '../../store'
     import Request from '../../cores/request/request'
     export default {
@@ -81,7 +79,6 @@
                         data: dataDict
                     }
                 )
-                console.log(store.state.dataDict?.data?.length)
             },
             dataDict() {
                 return new Promise((resolve) => {
