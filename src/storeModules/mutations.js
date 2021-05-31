@@ -50,18 +50,28 @@ export default {
         state.accessToken = accessToken || null
         if (accessToken) {
             // let expire = state.checkedPwd ? -1 : '0';
-            const expire = 36
+            const expire = 3600 // 主要应该依赖后端api返回401来判断是否退出登录
             vue.$cookies.set('accessToken', accessToken, expire)
         } else {
             vue.$cookies.remove('accessToken')
         }
     },
 
+    /**
+     * 保存用户信息
+     * @param state
+     * @param userInfo
+     */
     setUserInfo: (state, userInfo) => {
         state.userInfo = userInfo
         localStorage.setItem('userInfo', JSON.stringify(userInfo))
     },
 
+    /**
+     * 保存权限信息
+     * @param state
+     * @param permissionList
+     */
     setPermission: (state, permissionList) => {
         state.permission = permissionList
     },
