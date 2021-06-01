@@ -106,6 +106,7 @@ class User extends BaseModel {
             if (type !== 'success') {
                 typeof fn === 'function' ? fn({type, data}, res) : ''
             } else {
+                store.commit('setIsRefresh', true)
                 store.commit('setAccessToken', res.data.data.token)
                 store.commit('setUserInfo', res.data.data.userInfo)
                 store.commit('setPermission', res.data.data.userInfo.permissionList)
@@ -137,6 +138,8 @@ class User extends BaseModel {
             if (type == 'success') {
                 store.commit('setAccessToken', null)
                 store.commit('setUserInfo', [])
+                store.commit('setPermission', [])
+                store.commit('setIsRefresh', false)
                 typeof fn === 'function' ? fn({type}, res) : ''
             }
         })

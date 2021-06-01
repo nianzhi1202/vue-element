@@ -40,6 +40,7 @@ export default [
         name: '列表',
         component: CarIndex,
         meta: {
+            permission: '客户_中都客户管理员',
             breadcrumb: [
                 {
                     name: '列表',

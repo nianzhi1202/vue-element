@@ -25,6 +25,9 @@ export default {
     // 登录token，存在store中的额accessToken，如果不刷新浏览器，过期也不会被删除，刷新浏览器会根据cookie重新赋值
     accessToken: null,
 
+    // 登录后设置为true
+    isRefresh: false,
+
     // 权限列表
     permission: [],
 

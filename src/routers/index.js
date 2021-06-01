@@ -44,13 +44,13 @@ const router = new VueRouter({
 })
 
 router.beforeEach(async (to, from, next) => {
-    // 登录后刷新页面时 重新获取权限和用户信息，刷新accessToken重新赋值不会丢失，但是permission丢失（利用这点判断浏览器在刷新）
-    if (store.state.accessToken && store.state.permission.length == 0) {
+    // 登录后刷新页面时 重新获取权限和用户信息，刷新accessToken重新赋值不会丢失，但是isRefresh丢失（利用这点判断浏览器在刷新）
+    if (store.state.accessToken && store.state.isRefresh === false) {
         await viewsUser()
     }
 
     // 已登录
-    if (Vue.$cookies.get('accessToken') && to.path == '/site/login') {
+    if (Vue.$cookies.get('accessToken') && to.path === '/site/login') {
         next({path: '/'})
     }
 
@@ -74,6 +74,7 @@ function viewsUser() {
     return new Promise((resolve) => {
         User.viewsUser({type: 2}, ({type, data}) => {
             if (type === 'success') {
+                store.commit('setIsRefresh', true)
                 store.commit('setUserInfo', data.data)
                 store.commit('setPermission', data.data.permissionList)
                 resolve(true)
