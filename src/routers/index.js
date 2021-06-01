@@ -48,26 +48,26 @@ router.beforeEach(async (to, from, next) => {
     if (store.state.accessToken && store.state.isRefresh === false) {
         await viewsUser()
     }
-
+    let next_router = null
     // 已登录
     if (Vue.$cookies.get('accessToken') && to.path === '/site/login') {
-        next({path: '/'})
+        next_router = {path: '/'}
     }
 
     // 已登录-没有权限则跳转到404页面
     if (Vue.$cookies.get('accessToken') && !Permission.hasPermission(to.meta.permission)) {
-        next({path: '/error/not-allow'})
+        next_router = {path: '/error/not-allow'}
     }
 
     // 未登录状态
     if (to.path !== '/site/login' && Vue.$cookies.get('accessToken') === null) {
         User.logout()
-        next({path: '/site/login'})
+        next_router = {path: '/site/login'}
     }
 
     // 手动刷新accessToken存活时间（避免用户一直访问，但由于没刷新，还是被退出）
     store.commit('setAccessToken', store.state.accessToken)
-    next()
+    next_router ? next(next_router) : next()
 })
 
 function viewsUser() {
