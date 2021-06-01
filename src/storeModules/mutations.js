@@ -1,4 +1,5 @@
 import Vue from 'vue'
+import router from '../routers'
 
 const vue = new Vue()
 
@@ -76,9 +77,15 @@ export default {
         state.permission = permissionList
     },
 
-    logout() {
-        // 不要再这里头做跳转，跳转的话会死循环
-        this.commit('setAccessToken', null)
+    /**
+     * 前端退出登录 - 接口返回401时调用
+     * @param state
+     */
+    logout: (state) => {
+        state.accessToken = null
+        state.userInfo = []
+        vue.$cookies.remove('accessToken')
+        router.push('/site/login')
     },
 
     updateIndexPage(state, data) {

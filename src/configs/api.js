@@ -27,9 +27,9 @@ export default {
     driverStatus: {
         url: baseUrl + 'v1/driver/status'
     },
-    // 设备最新信息
-    driverStatusNew: {
-        url: baseUrl + 'v1/driver/driver-status-new'
+    // 按钮后端无权限
+    goodsPermission: {
+        url: 'https://testapi.v2.tianyigps.com/v1/car/index?page=1&pageSize=20&has_child=1&store_id=&is_clearing=0'
     },
     storeList: {
         url: baseUrl + 'v1/store/list'

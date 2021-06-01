@@ -9,6 +9,7 @@
 
 <script>
     import ElBtnTitle from '../../components/element/ElBtnTitle'
+    import Goods from '../../models/Goods'
 
     export default {
         name: 'create',
@@ -32,6 +33,18 @@
                         plain: ''
                     },
                     permission: '客户_中都客户管理员'
+                },
+                {
+                    text: '删除-后端无权',
+                    onClick: () => {
+                        this.getGoods()
+                    },
+                    show: true,
+                    type: 'primary',
+                    options: {
+                        plain: ''
+                    },
+                    permission: '客户_中都客户管理员'
                 }
             ]
         },
@@ -42,7 +55,13 @@
         },
         computed: {},
 
-        methods: {},
+        methods: {
+            getGoods() {
+                Goods.PermissionTest({}, ({result}) => {
+                    console.log(result)
+                })
+            }
+        },
 
         destroyed() {
         }

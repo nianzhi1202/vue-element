@@ -107,6 +107,7 @@ export default class Request {
             // 格式化返回结果
             this.pathParse(r, urlItem, successCb)
         }, (e) => {
+            console.log(e)
             const r = e.response
             const status = r.status
             typeof errorCb === 'function' ? errorCb(r, status) : this.defaultErrorCallback(r, status, store)

@@ -54,6 +54,14 @@ export default {
             }
         ],
 
+        // 访问出错的处理函数
+        // 这个时默认处理，如果在get或者post时传递了errorCb（第四个参数），则默认使用自定义处理，否则执行它
+        errorCallBack(response, status, store) {
+            if (status === 401) {
+                store.commit('logout')
+            }
+        },
+
         // 授权信息
         auth: {
             // 是否自动在header中添加授权校验信息

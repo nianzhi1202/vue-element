@@ -128,7 +128,7 @@ class User extends BaseModel {
     }
 
     /**
-     * 退出登录
+     * api退出登录
      * @param params
      * @param fn
      */
@@ -136,7 +136,7 @@ class User extends BaseModel {
         Request.post('logout', {}, ({type}, res) => {
             if (type == 'success') {
                 store.commit('setAccessToken', null)
-                store.commit('setUserInfo', null)
+                store.commit('setUserInfo', [])
                 typeof fn === 'function' ? fn({type}, res) : ''
             }
         })
