@@ -23,9 +23,9 @@
         created() {
             this.buttons = [
                 {
-                    text: '下载照片',
+                    text: '删除-后端403',
                     onClick: () => {
-                        console.log('点击了')
+                        this.get403()
                     },
                     show: true,
                     type: 'primary',
@@ -35,9 +35,9 @@
                     permission: '客户_中都客户管理员'
                 },
                 {
-                    text: '删除-后端无权',
+                    text: '删除-后端401',
                     onClick: () => {
-                        this.getGoods()
+                        this.get401()
                     },
                     show: true,
                     type: 'primary',
@@ -56,9 +56,22 @@
         computed: {},
 
         methods: {
-            getGoods() {
-                Goods.PermissionTest({}, ({result}) => {
+            get401() {
+                Goods.Permission401({}, ({result}) => {
                     console.log(result)
+                })
+            },
+            get403() {
+                Goods.Permission403({}, ({type, data}, res) => {
+                    if (type == 'success') {
+                        console.log(data)
+                    } else {
+                        this.$store.dispatch('showTip', {
+                            duration: 2000,
+                            text: data.message,
+                            type: 'warning'
+                        })
+                    }
                 })
             }
         },

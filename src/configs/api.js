@@ -27,9 +27,13 @@ export default {
     driverStatus: {
         url: baseUrl + 'v1/driver/status'
     },
-    // 按钮后端无权限
+    // 按钮后端无权限 401
     goodsPermission: {
         url: 'https://testapi.v2.tianyigps.com/v1/car/index?page=1&pageSize=20&has_child=1&store_id=&is_clearing=0'
+    },
+    // 按钮后端无权限 403
+    goodsPermission1: {
+        url: baseUrl + 'v1/user/403'
     },
     storeList: {
         url: baseUrl + 'v1/store/list'

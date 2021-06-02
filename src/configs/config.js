@@ -29,6 +29,17 @@ export default {
         // 默认解析配置
         defaultMaps: [
             {
+                type: 'error',
+                data: {
+                    message: 'data.message'
+                },
+                items: {
+                    status: 200, // axios自带的标准状态码
+                    'data.status': 200, // api返回状态码（除了不可控的如500,404,和yii2封装返回401，...），其它api统一返回200，不使用标准状态码区分
+                    'data.success': false
+                }
+            },
+            {
                 type: 'success',
                 data: {
                     message: 'data.message',
@@ -40,16 +51,6 @@ export default {
                 items: {
                     status: 200,
                     'data.status': 200
-                }
-            },
-            {
-                type: 'error',
-                data: {
-                    message: 'data.message'
-                },
-                items: {
-                    status: 200,
-                    'data.success': false
                 }
             }
         ],

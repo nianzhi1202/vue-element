@@ -416,20 +416,29 @@ Mock.mock('http://localhost:8080/v1/user/view?type=2', {
 /**
  * 图片上传 - 模拟直接返回
  */
-Mock.mock('http://localhost:8080/v1/upload/file-url',{
-    "success":true,
-    "status":200,
-    "message":"成功",
-    "data":{
-        "item":"http://tianyibao.oss-cn-beijing.aliyuncs.com/order/60a8a3dc223aa.jpg"
+Mock.mock('http://localhost:8080/v1/upload/file-url', {
+    'success': true,
+    'status': 200,
+    'message': '成功',
+    'data': {
+        'item': 'http://tianyibao.oss-cn-beijing.aliyuncs.com/order/60a8a3dc223aa.jpg'
     }
 })
 
 /**
  * 退出登录
  */
-Mock.mock('http://localhost:8080/v1/user/logout',{
-    "success":true,
-    "status":200,
-    "message":"成功"
+Mock.mock('http://localhost:8080/v1/user/logout', {
+    'success': true,
+    'status': 200,
+    'message': '成功'
+})
+
+/**
+ * 演示403
+ */
+Mock.mock('http://localhost:8080/v1/user/403', {
+    'success': false,
+    'status': 200,
+    'message': '无权访问'
 })
