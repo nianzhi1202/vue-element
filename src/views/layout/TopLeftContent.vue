@@ -138,4 +138,13 @@
         width: 16px;
         color: rgba(255, 255, 255, 1);
     }
+
+    .open{
+        transition: width .15s linear;
+        transform: translateZ(0);
+    }
+    .close{
+        transition: width .15s linear;
+        transform: translateZ(0);
+    }
 </style>
